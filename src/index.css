@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-surface: #151312;
+    --color-surface-dim: #151312;
+    --color-surface-bright: #3c3837;
+    --color-surface-container-lowest: #100e0d;
+    --color-surface-container-low: #1d1b1a;
+    --color-surface-container: #221f1e;
+    --color-surface-container-high: #2c2928;
+    --color-surface-container-highest: #373433;
+    --color-on-surface: #e8e1df;
+    --color-on-surface-variant: #d5c4b4;
+    --color-primary: #f8bb78;
+    --color-primary-container: #d49b5b;
+    --color-on-primary: #482900;
+    --color-on-primary-container: #583300;
+    --color-secondary: #efbe82;
+    --color-secondary-container: #644212;
+    --color-on-secondary-container: #dfb076;
+    --color-tertiary: #d2c4b2;
+    --color-tertiary-container: #b1a493;
+    --color-outline: #9d8e80;
+    --color-outline-variant: #504539;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #151312;
+    color: #e8e1df;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  /* Hide scrollbars for clean carousel UX */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* Custom font styles matching Bodoni Moda & Plus Jakarta Sans */
+.font-display-hero {
+  font-family: 'Bodoni Moda', Georgia, serif;
+}
+
+.font-headline-xl,
+.font-headline-lg,
+.font-headline-md,
+.font-serif {
+  font-family: 'Bodoni Moda', Georgia, serif;
+}
+
+.font-label-caps {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.font-price-display {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+/* Material symbol defaults */
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  vertical-align: middle;
+}
+.material-symbols-filled {
+  font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  vertical-align: middle;
+}

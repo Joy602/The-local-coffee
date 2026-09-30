@@ -1,0 +1,6 @@
+{
+  "name": "The Local Coffee - Dhanmondi Sanctuary",
+  "description": "Specialty coffee roastery, artisanal savory melts, and late-night cultural hub nestled along Satmasjid Road in Dhanmondi, Dhaka.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
